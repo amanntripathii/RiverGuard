@@ -99,44 +99,44 @@ Ensure the following are installed on your system before proceeding:
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-\`\`\`
+```
 
 ### 2. Install Dependencies
 
 Using **npm**:
 
-\`\`\`bash
+```
 npm install
-\`\`\`
+```
 
 Or using **yarn**:
 
-\`\`\`bash
+```
 yarn install
-\`\`\`
+```
 
 ### 3. Set Up Environment Variables
 
 Create a \`.env\` file in the root directory and include the following:
 
-\`\`\`env
+```
 MONGODB_URI=your_mongodb_connection_string
 NEXTAUTH_SECRET=your_nextauth_secret
 NEXTAUTH_URL=http://localhost:3000
-\`\`\`
+```
 
 > ⚠️ Replace placeholders with actual credentials or secrets.
 
 ### 4. Run the Development Server
 
-\`\`\`bash
+```
 npm run dev
 # or
 yarn dev
-\`\`\`
+```
 
 Your application will be accessible at: [http://localhost:3000](http://localhost:3000)
 
@@ -146,10 +146,10 @@ Your application will be accessible at: [http://localhost:3000](http://localhost
 
 To create a production build:
 
-\`\`\`bash
+```
 npm run build
 npm start
-\`\`\`
+```
 
 ---
 
@@ -187,17 +187,17 @@ We welcome contributions from the community!
 
 1. **Fork** the repository  
 2. **Create** a new branch:  
-   \`\`\`bash
+   ```
    git checkout -b feature/your-feature-name
-   \`\`\`
+   ```
 3. **Commit** your changes:  
-   \`\`\`bash
+   ```
    git commit -m "Add: your feature or fix"
-   \`\`\`
+   ```
 4. **Push** to your branch:  
-   \`\`\`bash
+   ```
    git push origin feature/your-feature-name
-   \`\`\`
+   ```
 5. **Open a Pull Request**
 
 ---
