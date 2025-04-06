@@ -204,7 +204,7 @@ export default function HistoryPage() {
               <CardContent>
                 <div className="relative h-64 rounded-lg overflow-hidden mb-6">
                   <Image
-                    src="/placeholder.svg?height=400&width=800"
+                    src="assets\ganga.jpg?height=400&width=800"
                     alt={`${currentRiver.name} River`}
                     fill
                     className="object-cover"
