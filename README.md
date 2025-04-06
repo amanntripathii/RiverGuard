@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # 🌊 RiverGuard - Crowdsourced River Pollution Reporting App
 
 **RiverGuard** is a web-based platform empowering citizens to report river pollution, participate in cleanup initiatives, and stay updated on government conservation efforts. Through a reward-based engagement system, RiverGuard fosters collective responsibility to protect India's rivers.
@@ -83,6 +83,7 @@ RiverGuard/
 ├── package.json          # Project metadata and dependencies
 ├── README.md             # Project documentation
 └── next.config.js        # Next.js configuration
+```
 
 ## 🛠️ Prerequisites
 
@@ -200,7 +201,3 @@ We welcome contributions from the community!
 5. **Open a Pull Request**
 
 ---
-
-
-> Created with ❤️ by the Me
-EOF
